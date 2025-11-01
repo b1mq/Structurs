@@ -7,6 +7,13 @@ namespace Structurs.Domain.Entities
         public int Red {  get; set; }
         public int Green { get; set; }
         public int Blue { get; set; }
+
+        public RGB ()
+        {
+            Red = 0;
+            Green = 0;
+            Blue = 0;
+        }
         public RGB(int red, int green, int blue)
         {
             if ( red >= 0 && green >= 0 && blue >= 0 && red <= 255 && green <= 255 && blue <= 255)

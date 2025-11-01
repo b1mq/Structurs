@@ -2,6 +2,5 @@
 
 using Structurs.Domain.Entities;
 
-var rgb = new RGB(255, 87, 51);
-
-Console.WriteLine(rgb.RGBtoHEX());
+string hexColor = RGB.RGBCodeToHexCode(255, 100, 50);
+Console.WriteLine(hexColor);
