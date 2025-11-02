@@ -1,10 +1,18 @@
-﻿namespace Structurs.Domain.Entities
+﻿using System.Xml.Linq;
+
+namespace Structurs.Domain.Entities
 {
     struct HEX
     {
         public string HexCode { get; set; }
+
+        public HEX()
+        {
+            HexCode = String.Empty;
+        }
         public HEX(string hexCode)
         {
+            ArgumentNullException.ThrowIfNullOrEmpty(hexCode);
             HexCode = hexCode;
         }
         public static string HEXtoRGBCode(string hexCode) // тут уже не я делал просто что бы все было дополнено
