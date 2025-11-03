@@ -2,7 +2,7 @@
 
 namespace Structurs.Domain.Entities
 {
-    struct HEX
+    public  struct HEX
     {
         public string HexCode { get; set; }
 

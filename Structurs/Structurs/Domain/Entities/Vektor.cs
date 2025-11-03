@@ -1,6 +1,6 @@
 ﻿namespace Structurs.Domain.Entities
 {
-    struct Vektor3
+    public  struct Vektor3
     {
         public double X { get; set; }
         public double Y { get; set; }

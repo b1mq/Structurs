@@ -2,7 +2,7 @@
 
 namespace Structurs.Domain.Entities
 {
-    struct RGB
+    public  struct RGB
     {
         public int Red {  get; set; }
         public int Green { get; set; }

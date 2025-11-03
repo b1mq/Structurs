@@ -1,6 +1,6 @@
 ﻿namespace Structurs.Domain.Entities
 {
-    struct CMYK
+    public struct CMYK
     {
         string CMYKCode { get; set; }
 
